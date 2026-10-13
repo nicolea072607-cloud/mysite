@@ -1,0 +1,34 @@
+/* Basic responsive styling for the Strike a Chord assignment */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #fff;
+}
+header, footer {
+  text-align: center;
+  padding: 1rem;
+  background: #e7f0f7;
+}
+nav {
+  text-align: center;
+  padding: 0.5rem;
+  background: #24445c;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.3rem;
+}
+nav a:hover, nav a:focus { text-decoration: underline; }
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+footer a { color: inherit; }
